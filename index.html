@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Word Guess Game</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome To <strong>Word Guess Game!</strong></h1>
+        <h1><mark>80's Rock Bands</mark></h1>
+    </header>
+
+    <div class="container">
+            
+        <div class="row">
+            <div class="box-r">
+            
+                Type a letter of a rock band from the 80's (then press guess)
+                <br>
+                <input id="guess" type="text">
+                
+                <input type="button" value="guess" onClick="guessOne()"/>
+                <br>
+                <p id="message">&nbsp;</p>
+            </div>
+        </div>
+        <div class="row">
+                <div class="box-l">
+                <p><font size="+3"><span id="answer">puzzle loading..</span></font>
+                 </p>
+        </div>
+        </div>
+    </div>
+    <footer>
+        <h6><mark>&copy;Play Ground</mark></h6>
+    </footer>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
